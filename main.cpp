@@ -123,21 +123,7 @@ protected:
 
 int main()
 {
-	
-
-	
-	/*to.DoasyncJob(&TestObject::TestFunc, 1, 2);*/
-	
-	/*push(&to, &TestObject::TestFunc, 1, 2);
-	push(&to2, &TestObject::TestFunc, 3, 3);
-	
-	std::shared_ptr<Job> job;
-	while(Pop(job))
-	{
-		job->Execute();
-	}*/
-
-	
+		
 	for (int i = 0; i < TEST_OBJ_COUNT; ++i)
 	{
 		testObjects.push_back(TestObject::Create());
