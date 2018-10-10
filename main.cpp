@@ -109,7 +109,7 @@ protected:
 				return;
 			}
 
-			Sleep(1);
+			//Sleep(1); 풀고 하면 잘되는듯..한데..흠..
 		}
 	}
 
